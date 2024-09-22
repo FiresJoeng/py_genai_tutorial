@@ -33,14 +33,14 @@ history = []
 
 # 循环体
 while True:
-    user_input = input("MSG Gemini > ")  # 输入端
+    user_input = input("You > ")  # 输入端
 
     chat_session = model.start_chat(
         history=history
     )
 
     response = chat_session.send_message(user_input)
-    print(response.text)  # 输出端
+    print(f"Gemini > {response.text}")  # 输出端
 
     # 记录聊天历史
     history.append({"role": "user", "parts": [user_input]})
