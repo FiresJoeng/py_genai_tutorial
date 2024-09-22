@@ -1,5 +1,5 @@
 # py_genai_tutorial
-一个在中国大陆境内配置Gemini API的Python实例教程
+一个在中国大陆境内配置Gemini API的Python实例教程，你可以直接下载"main.py"文件作为基础模板，里面已经做好了代码注释，方便修改。关于API的获取和使用方法在下方。
 
 ## 第一步
 ####  访问 "https://ai.google.dev", 或者谷歌搜索 "dev gemini", 进入Google AI Studio
