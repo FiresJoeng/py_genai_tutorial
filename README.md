@@ -1,0 +1,2 @@
+# py_genai_tutorial
+一个在中国大陆境内配置Gemini API的Python实例教程
